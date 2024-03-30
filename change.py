@@ -14,4 +14,4 @@ def change():
     print(int(vuelto))
     print("Centavos:")
     vuelto_en_float = (vuelto-int(vuelto)*(int(money)))
-    print(int(vuelto_en_float))
+    print(vuelto_en_float)
