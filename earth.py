@@ -1,5 +1,7 @@
 def earth():
     x = "Bangladesh"
     y = "Barbados"
-    print("The result of Bangladesh comes first in the dictionary than Barbados is" f"{x > y}.")
-    print("The result of Barbados comes first in the dictionary than Bangladesh is" f"{x < y}.")
+
+    result = (x < y)
+    print(f"The result of { x if x < y else y} comes first in the dictionary than { x if x > y else y} is {result}.")
+    print(f"The result of { x if x >  y else y} comes first in the dictionary than { x if x < y else y} is {not result}.")
